@@ -1,5 +1,8 @@
 # pokedex
 A simple Node.JS API Pokedex (three routes only)
+This node API reads the pokemon DB in to memory and runs the queries directly on memory for a faster experience!
+
+Please feel free to upgrade it with more features / fixes.
 
 #Setup
 
