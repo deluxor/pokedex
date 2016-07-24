@@ -31,3 +31,48 @@ Swap the number for the pokemon you want, and it will list the full details of t
 /getbyname/Ivysaur
 ```
 Swap the name for the pokemon you want, and it will list the full details of the searched pokemon;
+
+
+#Example of a pokemon full detail body:
+
+```
+{
+    "Number": "002",
+    "Name": "Ivysaur",
+    "Classification": "Seed Pokèmon",
+    "Type I": [
+      "Grass"
+    ],
+    "Type II": [
+      "Poison"
+    ],
+    "Weaknesses": [
+      "Fire",
+      "Ice",
+      "Flying",
+      "Psychic"
+    ],
+    "Fast Attack(s)": [
+      "Razor Leaf",
+      "Vine Whip"
+    ],
+    "Weight": "13.0 kg",
+    "Height": "1.0 m",
+    "Previous evolution(s)": [
+      {
+        "Number": "001",
+        "Name": "Bulbasaur"
+      }
+    ],
+    "Next Evolution Requirements": {
+      "Amount": 100,
+      "Name": "Bulbasaur candies"
+    },
+    "Next evolution(s)": [
+      {
+        "Number": "003",
+        "Name": "Venusaur"
+      }
+    ]
+  }
+  ```
