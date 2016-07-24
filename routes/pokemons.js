@@ -9,7 +9,7 @@ const pokemonData = require('../pokemon');
 
 module.exports = {
   getAll: (req, res) => {
-    res.json(pokemonData);
+    return res.json(pokemonData);
   },
   getByNumber: (req, res) => {
     let id = req.params.id;
