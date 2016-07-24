@@ -22,9 +22,9 @@ This gives you the complete list with the full details of each pokemon;
 ```
 /getbynumber/001
 ```
-just swap the number for the pokemon you want;
+Swap the number for the pokemon you want, and it will list the full details of the searched pokemon;
 
 ```
 /getbyname/Ivysaur
 ```
-just swap the name for the pokemon you want, case sensitive and first letter; capitalized
+Swap the name for the pokemon you want, and it will list the full details of the searched pokemon;
