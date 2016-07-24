@@ -14,11 +14,17 @@ A simple Node.JS API Pokedex (three routes only)
 
 #Routes
 
-```/getall```
+```
+/getall
+```
 This gives you the complete list with the full details of each pokemon;
 
-```/getbynumber/001```
+```
+/getbynumber/001
+```
 just swap the number for the pokemon you want;
 
-```/getbyname/Ivysaur```
+```
+/getbyname/Ivysaur
+```
 just swap the name for the pokemon you want, case sensitive and first letter; capitalized
